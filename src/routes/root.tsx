@@ -1,12 +1,12 @@
 import { Canvas } from "@react-three/fiber";
-import { AnimatedBox } from "../AnimatedBox";
+import { Outlet } from "react-router-dom";
 
 export default function Root() {
   return (
     <>
       <div className="w-full h-screen">
         <Canvas>
-          <AnimatedBox />
+          <Outlet />
         </Canvas>
       </div>
     </>
