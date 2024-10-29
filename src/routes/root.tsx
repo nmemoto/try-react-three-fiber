@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
-import { AnimatedBox } from "./AnimatedBox";
+import { AnimatedBox } from "../AnimatedBox";
 
-function App() {
+export default function Root() {
   return (
     <>
       <div className="w-full h-screen">
@@ -12,5 +12,3 @@ function App() {
     </>
   );
 }
-
-export default App;
