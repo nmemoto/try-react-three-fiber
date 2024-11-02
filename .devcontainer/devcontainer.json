@@ -1,5 +1,5 @@
 {
-  "name": "solar-system",
+  "name": "try-react-three-fiber",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {}
