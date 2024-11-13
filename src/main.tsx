@@ -6,6 +6,7 @@ import ErrorPage from "./error-page.tsx";
 import Earth from "./routes/earth.tsx";
 import IcsQuickStart from "./routes/ics-quickstart.tsx";
 import Index from "./routes/index.tsx";
+import Moon from "./routes/moon.tsx";
 import Root from "./routes/root.tsx";
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "earth",
         element: <Earth />,
+      },
+      {
+        path: "moon",
+        element: <Moon />,
       },
     ],
   },
